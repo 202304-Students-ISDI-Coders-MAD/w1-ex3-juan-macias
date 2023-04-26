@@ -1,4 +1,22 @@
-header {
-    padding: 18px;
+html, body {
+    height: 100%;
 }
 
+header {
+    padding: 18px;
+    background-color: aliceblue;
+}
+
+main {
+    width: 66%;
+    height: 100%;
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+aside {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    background-color: blue;
+}
