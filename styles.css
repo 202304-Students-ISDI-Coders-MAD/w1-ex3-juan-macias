@@ -1,22 +1,53 @@
-html, body {
-    height: 100%;
+* {
+  border: 1px dashed blue;
 }
 
-header {
-    padding: 18px;
-    background-color: aliceblue;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
-main {
-    width: 66%;
-    height: 100%;
-    display: inline-block;
-    background-color: aquamarine;
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-aside {
-    width: 33%;
-    height: 100%;
-    display: inline-block;
-    background-color: blue;
+.header {
+  flex: none;
+  padding: 21px;
 }
+
+.header__title {
+  color: red;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.main__section {
+  background-color: #FABADA;
+  flex: 2;
+}
+
+.section__text {
+  color: blue;
+}
+
+.section__text--colored {
+  color: red;
+}
+
+.main__sidebar {
+  background-color: lightcoral;
+  flex: 1;
+}
+
+.pepe {
+  color: #FABADA;
+}
+
+/*# sourceMappingURL=styles.css.map */

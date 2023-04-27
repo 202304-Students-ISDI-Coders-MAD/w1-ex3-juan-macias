@@ -1,20 +1,79 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="styles.css">
-        <title>CSS Layout</title>
-    </head>
-    <body>
-        <header>
-            <h1>Título</h1>
-        </header>
-        <main>Main</main>
-        <aside>Aside</aside>
-        <footer>Footer</footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Layout</title>
+  </head>
+
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <h1 class="header__title">Título</h1>
+      </header>
+
+      <main class="main">
+        <section class="main__section">
+          <h2 class="section__title">
+            David consigue hacer 8 preguntas y deja a Juan con la boca abierta!
+            🫢
+          </h2>
+          <p class="section__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed iusto
+            suscipit omnis fugiat neque ullam tempore vero nemo asperiores, ea
+            quaerat consequuntur illum, porro cum sapiente nam animi expedita
+            et?
+          </p>
+          <p class="section__text section__text--colored">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Architecto, quia dolorem temporibus ut nostrum dolorum, possimus
+            modi, quam eum eveniet molestias placeat ex ab cumque vel harum
+            corporis optio doloremque.
+          </p>
+          <p class="section__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Architecto, quia dolorem temporibus ut nostrum dolorum, possimus
+            modi, quam eum eveniet molestias placeat ex ab cumque vel harum
+            corporis optio doloremque.
+          </p>
+          <p class="section__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Architecto, quia dolorem temporibus ut nostrum dolorum, possimus
+            modi, quam eum eveniet molestias placeat ex ab cumque vel harum
+            corporis optio doloremque.
+          </p>
+        </section>
+
+        <aside class="main__sidebar">
+
+          <div class="list">
+            <h3 class="list__title">Categorías</h3>
+            <ul class="list__content">
+              <li class="list__item">Noticias de deporte</li>
+              <li class="list__item">Noticias de deporte</li>
+              <li class="list__item">Noticias de deporte</li>
+              <li class="list__item">Noticias de deporte</li>
+            </ul>
+          </div>
+
+          <div class="list">
+            <h3 class="list__title">Categorías</h3>
+            <ul class="list__content">
+              <li class="list__item">Noticias de deporte</li>
+              <li class="list__item">Noticias de deporte</li>
+              <li class="list__item">Noticias de deporte</li>
+            </ul>
+          </div>
+
+          <div></div>
+        </aside>
+      </main>
+
+      <footer class="footer">Footer</footer>
+    </div>
+  </body>
 </html>
