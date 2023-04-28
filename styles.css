@@ -28,25 +28,25 @@ body {
   flex: 1;
 }
 
-.main__section {
+.main-section {
   background-color: #FABADA;
   flex: 2;
 }
 
-.section__text {
+.main-section__text {
   color: blue;
 }
 
-.section__title:first-child {
+.main-section__title:first-child {
   font-size: 12px;
   color: darkorchid;
 }
 
-.section__text:last-child {
+.main-section__text:last-child {
   color: green;
 }
 
-.section__text--colored {
+.main-section__text--colored {
   color: red;
 }
 
@@ -65,6 +65,24 @@ body {
 
 .category .list__item {
   list-style-type: none;
+}
+
+.form-section {
+  display: flex;
+  min-height: 300px;
+}
+
+.form-section > div {
+  flex: 1;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__container input {
+  width: 100%;
 }
 
 .footer {
